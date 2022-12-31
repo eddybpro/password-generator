@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #4285f4;
+}
+
+.container{
+    width: 450px;
+    background-color: #fff;
+    border-radius: .5rem;
+}
+
+.container h2{
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 1rem 1.1rem;
+    border-bottom: 1px solid #d4dbe5;
+}
+
+.wrapper{
+    margin: 1rem 1.1rem;
+}
+
+.wrapper .input-box{
+    position: relative;
+}
+
+.input-box input{
+    width: 100%;
+    color: #000;
+    background: none;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+    border-radius: .3rem;
+    border: 1px solid #aaa;
+    padding:  1rem 2rem;
+}
+
+.input-box i{
+    position: absolute;
+    font-size: 1.3rem;
+    color: rgb(2, 93, 129);
+    cursor: pointer;
+    top: 50%;
+    right: .9rem;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper .pass-indicator{
+    width: 100%;
+    height: .25rem;
+    background: #dfdfdf;
+    margin-top: .7rem;
+    border-radius: 1rem;
+    position: relative;
+    transition: width .2s ease;
+}
+
+.pass-indicator#weak::before{
+    width: 20%;
+    background: #e64a4a;
+}
+
+.pass-indicator#medium::before{
+    width: 50%;
+    background: #f1c80b;;
+}
+
+.pass-indicator#strong::before{
+    width: 100%;
+    background: #4285f4;
+}
+
+.pass-indicator::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    border-radius: inherit;
+    background: #f1c80b;
+}
+
+.wrapper .pass-length{
+    margin: 1.4rem 0 1rem;
+}
+
+.pass-length .details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pass-length input{
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+}
+
+.pass-settings .options{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.pass-settings .options .option{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: calc(100% / 2);
+}
+
+.options .option:first-child{
+    pointer-events: none;
+}
+
+.options .option:first-child input{
+    opacity: 0.7;
+}
+
+.options .option input{
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.options .option label{
+    cursor: pointer;
+    padding-left:.6rem ;
+}
+
+.wrapper .generate-btn{
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4285f4;
+    outline: none;
+    border: none;
+    margin: .9rem  0  1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
